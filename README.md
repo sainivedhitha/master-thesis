@@ -1,5 +1,10 @@
-# master-thesis
-Estimation of Joint Stiffness via a Musculoskeletal Model Driven by Motor Neuron Twitch Properties
+# Estimation of Joint Stiffness via a Musculoskeletal Model Driven by Motor Neuron Twitch Properties
+
+This research was undertaken as part of the MSc program. 
+
+## Abstract 
+
+Joint stiffness estimation involves joint perturbation or torque-based experiments in conjunction with system identification techniques. The modeling techniques recently used to estimate joint stiffness include bipolar ElectroMyoGraphy (EMG) data to drive the musculoskeletal model. These models do not provide detailed information on individual Alpha Motor Neuron ($\alpha$-MN) properties which is essential to improve the personalization of the Neuro Musculo Skeletal (NMS) model. The use of bipolar electrodes limits the resolution to extract the $\alpha$-MN properties. In this study, the NMS models were driven by the activation dynamics of EMG envelopes and motor unit activation dynamics, respectively. The normalized EMG envelopes were regarded as the activation profiles of EMG envelopes. For the activation dynamics of motor units, the Motor Units (MUs) were decomposed from uni-polar HD-EMG data using a blind source separation technique, and the motor unit distributions were sampled to formulate the activation profiles. The experimental torque from the Achilles and stiffness estimation from System Identification (SI) technique were used as a reference to validate the results of the models at the torque and stiffness level. The torque estimations by both models were better than the stiffness estimations. At the torque level, the model driven by motor units produced improved results; at the stiffness level, the model driven by EMG envelopes produced better results. Overall, this method can be used to predict the torque but enhancements should be made to increase the stiffness estimation results. Further, the entire study was performed under isometric conditions. The inclusion of unique properties of isometric conditions such as Short Range Stiffness (SRS) in the future could improve the results.
 
 ## Contents in this Repository
 
